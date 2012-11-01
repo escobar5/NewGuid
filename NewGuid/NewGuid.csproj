@@ -124,10 +124,15 @@
     <Content Include="..\..\..\..\Users\JuanS\Documents\Visual Studio 2012\Addins\NewGuid - For Testing.AddIn">
       <Link>NewGuid - For Testing.AddIn</Link>
     </Content>
+    <Content Include="Installer\NewGuid.AddIn" />
+    <Content Include="Installer\NewGuid.dll" />
     <Content Include="NewGuid.AddIn">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <None Include="README.md" />
+    <None Include="Installer\NewGuid.vscontent">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Installer\NewGuid.vsi" />
     <None Include="Resources\NewGuidIcon.png" />
   </ItemGroup>
   <ItemGroup>
